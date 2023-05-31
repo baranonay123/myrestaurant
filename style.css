@@ -296,6 +296,7 @@ body {
 .food-container {
   display: flex;
   justify-content: space-between;
+  
 }
 
 .food-container img {
@@ -309,7 +310,7 @@ body {
 }
 
 .img-container {
-  margin: 0 1rem;
+  margin: 0 0.5rem;
   position: relative;
 }
 
@@ -341,13 +342,11 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.871);
+  background: rgba(59, 59, 59, 0.871);
   opacity: 0;
   z-index: 1;
-
-  
   transform-origin: 100% 100%;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .img-container:hover::after {
@@ -357,7 +356,7 @@ body {
 
 .img-container:hover .img-content {
   opacity: 1;
-  top: 40%;
+  top: 50%;
 }
 .food h2{
   color: grey;
@@ -369,9 +368,10 @@ body {
 
 .food-menu-heading {
   text-align: center;
-  font-size: 3.4rem;
+  font-size: 3.5em;
   font-weight: 400;
-  color: darkgrey;
+  color: grey;
+  padding-top: 50px;
 }
 
 .food-menu-container {
@@ -401,13 +401,13 @@ body {
 }
 
 .font-title {
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   font-weight: 400;
-  color: grey;
+  color: darkgrey;
 }
 
 .food-description p {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: grey;
   font-weight: 500;
 }
@@ -415,29 +415,6 @@ body {
 .food-description .food-price {
   color: darkgreen;
   font-weight: 700;
-}
-.section-food h2{
-  justify-content:center;
-  align-items: center;
-}
-#food h2 {
-  text-align:center;
-  font-size: 2.8rem;
-  font-weight: 400;
-  margin-bottom: 40px;
-  margin-top: 50px;
-  text-transform: uppercase;
-  color:black;
-}
-
-.food-container {
-display:flex;
-justify-content: center;
-grid-gap:150px;
-}
-.food-menu-heading{
-  color: black;
-margin-top: 50px;
 }
 
 
@@ -488,7 +465,7 @@ margin-top: 50px;
   margin: auto;
 }
 .testimonial-title{
-  color: black;
+  color: darkgrey;
 }
 
 
