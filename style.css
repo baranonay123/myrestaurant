@@ -106,14 +106,70 @@ body {
 
 
 /* showcase baslangıc */
+#about {
+  padding: 50px 0;
+  background: white;
+}
+
+.about-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#about h2 {
+  font-size: 2.2rem;
+}
+
+#about p {
+  font-size: 1.2rem;
+  color: grey;
+}
+
+#about .small {
+  font-size: 1.2rem;
+  color: grey;
+  font-weight: 600;
+}
+
+.about-img {
+  flex: 1 1 400px;
+  padding: 30px;
+
+}
+
+
+.about-text {
+  flex: 1 1 400px;
+  padding: 30px;
+  margin: auto;
+
+}
+
+.about-img img {
+  display: block;
+  height: 400px;
+  max-width: 100%;
+  margin: auto;
+  object-fit: cover;
+  object-position: right;
+}
 
 .showcase-area {
   height: 50vh;
-  background: white ;
+  background: linear-gradient(
+      rgba(240, 240, 240, 0.178),
+      rgba(255, 255, 255, 0.336)
+    ),
+    url("https://cdn.yemek.com/uploads/2015/08/yemek-yapan-insan-yaraticidir.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
+.showcase-area p{
+  padding-top: 10px;
+  color: black;
+}
+
 
 .showcase-container {
   display: flex;
@@ -122,6 +178,11 @@ body {
   justify-content: center;
   height: 100%;
   font-size: 1.5rem;
+
+}
+.showcase-container img{
+  height: 200px;
+  width: 500px;
 }
 
 .main-title {
